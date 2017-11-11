@@ -31,7 +31,7 @@
 			</select>
 			<input id="btn" type="submit" value="提交" />
 		</form>
-		<form method="get" action="./1.php" >
+		<form method="get" action="./1.php" > 
 			用户名<input type="text" name="userName">
 			密码<input type="password" name="password" >
 			<input type="button" value="提交" />
