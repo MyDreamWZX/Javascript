@@ -20,11 +20,11 @@ console.log( +'a' );
 
 (function (){
 		
-	var miaov = 'ketang';
+	var asd = 'ketang';
 	var a = 10;
 	var b = 20;
 	document.onclick = function (){
-		console.log(miaov);	
+		console.log(asd);	
 	};
 })();
 
@@ -32,8 +32,8 @@ console.log( +'a' );
 
 // B同学
 (function (){
-	var miaov = 'leo';
-	console.log( miaov );
+	var asd = 'leo';
+	console.log( asd );
 })();
 ```
 # 查找标识符
@@ -51,7 +51,7 @@ document.onclick = function (){
 	func();	
 };
 
-function miaov(){
+function asd(){
 	var b = 0;
 
 	function ketang(){
@@ -63,7 +63,7 @@ function miaov(){
 	return ketang;
 }
 var b = 20;
-var f = miaov();
+var f = asd();
 
 f()
 f();
@@ -142,7 +142,7 @@ console.log( str.trim() );
 	
 */
 
-var str = 'miaovketang';
+var str = 'asdvketang';
 
 console.log( str.indexOf("leo") );
 
