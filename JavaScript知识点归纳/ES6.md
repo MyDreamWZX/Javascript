@@ -20,8 +20,8 @@
 				const
 			*/
 
-			var miaov = 1;
-			var miaov = 2;
+			var asd = 1;
+			var asd = 2;
 
 			let ketang = 10;
 			let ketang = 20;
@@ -60,7 +60,7 @@
 				const
 			*/
 			console.log(miaov);
-			var miaov = 1;
+			var asd = 1;
 			console.log(ketang);
 			let ketang = 10;
 
@@ -103,14 +103,14 @@
 
 			if(true){
 				// 变量提升，会把变量名提升，if走不进来没赋值
-				var miaov = 123;
+				var asd = 123;
 
 				// 在这个if中使用，会形成块级作用域
 				let ketang = 10;
 				console.log(ketang);
 			}
 
-			console.log(miaov);
+			console.log(asd);
 			console.log(ketang);
 
 
@@ -265,16 +265,16 @@
 			*/
 
 			
-			let miaov = 123;
+			let asd = 123;
 
-			miaov = 10;
+			asd = 10;
 
 			
 			const ketang = 20;
 
 			//ketang = 30;  // 使用const声明的变量，不能再次赋值，否则会报错
 
-			console.log(miaov);
+			console.log(asd);
 			console.log(ketang);
 
 
@@ -437,8 +437,8 @@
 			console.log(obj);
 
 			// 定义添加属性
-			/*obj.miaov = 10;
-			obj.miaov = 30;*/
+			/*obj.asd = 10;
+			obj.asd = 30;*/
 
 
 		</script>
@@ -477,7 +477,7 @@
 
 			console.log(a);*/
 
-			let str = 'miaovketang';
+			let str = 'asdvketang';
 
 			let a1 = str[0];
 
