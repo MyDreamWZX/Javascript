@@ -37,7 +37,7 @@
 			<input type="button" value="提交" />
 			<input type="button"  id="resets" value="重置" />
 		</form>
-		<a id="linkA" href="http://www.123.com">miaov</a>
+		<a id="linkA" href="http://www.123.com">123</a>
 		<script>
 			/*
 				浏览器的默认行为
@@ -124,7 +124,7 @@ window
 			*/
 			window.onload = function(){
 				document.onclick = function (){
-					window.open('http://www.miaov.com',"_blank","width=500,height=500,left=400,top=100");
+					window.open('http://www.123.com',"_blank","width=500,height=500,left=400,top=100");
 				}
 			};
 		</script>
@@ -248,9 +248,9 @@ window
 				https
 				file
 
-				http://www.123.com:80/home/index.html?miaov=ketang&video=study#vip=123&videoId=456
+				http://www.123.com:80/home/index.html?123=ketang&video=study#vip=123&videoId=456
 
-				https://www.baidu.com/s?wd=miaov
+				https://www.baidu.com/s?wd=123
 				
 				https/http:// 			===>	protocol 	传输协议
 				123.com 			===>	host name 	主机名
