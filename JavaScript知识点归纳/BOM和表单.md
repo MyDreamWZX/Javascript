@@ -19,7 +19,7 @@
 				
 			method: 提交方式 get post
 
-			http://www.miaov.com/?userName=wangyun&password=123
+			http://www.123.com/?userName=wangyun&password=123
 			表单控件上name是和后端进行约定的，代表特殊意义
 		-->
 		<form method="get" action="./1.php">
@@ -37,7 +37,7 @@
 			<input type="button" value="提交" />
 			<input type="button"  id="resets" value="重置" />
 		</form>
-		<a id="linkA" href="http://www.miaov.com">miaov</a>
+		<a id="linkA" href="http://www.123.com">miaov</a>
 		<script>
 			/*
 				浏览器的默认行为
@@ -244,19 +244,19 @@ window
 		</style>
 		<script>
 			/*
-				http://miaov.com/
+				http://123.com/
 				https
 				file
 
-				http://www.miaov.com:80/home/index.html?miaov=ketang&video=study#vip=123&videoId=456
+				http://www.123.com:80/home/index.html?miaov=ketang&video=study#vip=123&videoId=456
 
 				https://www.baidu.com/s?wd=miaov
 				
 				https/http:// 			===>	protocol 	传输协议
-				miaov.com 			===>	host name 	主机名
+				123.com 			===>	host name 	主机名
 				80  				===>	port		端口   
 				home/index.html 		===>	path 		路径
-				?miaov=ketang&video=study ===>	search 		查询数据
+				?123=ketang&video=study ===>	search 		查询数据
 				#vip=123&videoId=456 	===>    hash 		锚点
 
 			*/
