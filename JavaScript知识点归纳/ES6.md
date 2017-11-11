@@ -59,7 +59,7 @@
 
 				const
 			*/
-			console.log(miaov);
+			console.log(asd);
 			var asd = 1;
 			console.log(ketang);
 			let ketang = 10;
@@ -952,7 +952,7 @@ rest 参数搭配的变量是一个数组，该变量将多余的参数放入数
 			//1. 使用下标添加值 或者push
 			arr2[0] = 'm';
 			arr2[1] = 'v';*/
-			//var arr2 = new Array('miaov','ket');
+			//var arr2 = new Array('asd','ket');
 			//var arr2 = new Array(3);  // 代表的是数组的length为3
 			//var arr2 = Array.of(3);
 			var arr2 = Array.of(3,4,5,6,7,8);
