@@ -79,9 +79,9 @@ ftp  22
 
 file 
 
-http://miaov.com:80
+http://asd.com:80
 
-http://miaov.com:8080
+http://asd.com:8080
 
 这三个有一个不同，就产生跨域
 
