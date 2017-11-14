@@ -601,7 +601,7 @@ Object => 对象
 
 	*/
 
-	var strTest = 'miaovketang'; // 赋值
+	var strTest = 'aaaketang'; // 赋值
 
 	strTest = 'abc';//改的不是字符串，而是变量存的值
 
